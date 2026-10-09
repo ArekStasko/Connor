@@ -1,6 +1,6 @@
 namespace Connor.Domain.Models.Receiver;
 
-public interface IProfile
+public interface IProfile : IIdentity
 {
     string Name { get; }
     string Surname { get; }

@@ -1,6 +1,6 @@
 namespace Connor.Domain.Models.Prompt;
 
-public interface ISubstance
+public interface ISubstance : IIdentity
 {
     string Type { get; }
     string Text { get; }
