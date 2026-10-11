@@ -1,16 +1,15 @@
 using Connor.Domain.Models.Prompt;
+using Microsoft.EntityFrameworkCore;
 
 namespace Connor.Persistance.Repositories.Prompt;
 
-public class Prompt : IPrompt
+public class Prompt(PersistanceContext context) : IPrompt
 {
-    public Task<ISubstance> GetSubstance(string substanceId)
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<ISubstance?> GetSubstance(int substanceId)
+        => await context.Prompts.FirstOrDefaultAsync(p => p.Id == substanceId);
 
-    public Task<ITimePeriod> GetTimePeriod(string timePeriodId)
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<IList<ITimePeriod>> GetTimePeriods()
+        => await context.Prompts.ToListAsync<ITimePeriod>();
+    public async Task<ITimePeriod?> GetTimePeriod(int timePeriodId)
+        => await context.Prompts.FirstOrDefaultAsync(p => p.Id == timePeriodId);
 }

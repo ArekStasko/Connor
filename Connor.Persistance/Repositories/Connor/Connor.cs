@@ -1,11 +1,10 @@
 using Connor.Domain.Models.Connor;
+using Microsoft.EntityFrameworkCore;
 
 namespace Connor.Persistance.Repositories.Connor;
 
-public class Connor : IConnor
+public class Connor(PersistanceContext context) : IConnor
 {
-    public Task<IConfiguration> GetConfiguration()
-    {
-        throw new NotImplementedException();
-    }
+    public async Task<IConfiguration?> GetConfiguration()
+        => await context.Connors.FirstOrDefaultAsync();
 }

@@ -4,6 +4,6 @@ namespace Connor.Persistance.Repositories.Receiver;
 
 public interface IReceiver
 {
-    public Task<IPersonality> GetPersonality();
-    public Task<IProfile> GetProfile();
+    public Task<IPersonality?> GetPersonality();
+    public Task<IProfile?> GetProfile();
 }
