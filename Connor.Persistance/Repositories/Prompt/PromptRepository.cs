@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Connor.Persistance.Repositories.Prompt;
 
-public class Prompt(PersistanceContext context) : IPrompt
+public class PromptRepository(PersistanceContext context) : IPrompt
 {
     public async Task<ISubstance?> GetSubstance(int substanceId)
         => await context.Prompts.FirstOrDefaultAsync(p => p.Id == substanceId);

@@ -2,7 +2,7 @@ using Connor.Domain.Models.Prompt;
 
 namespace Connor.Persistance.Repositories.Prompt;
 
-public interface IPrompt
+public interface IPromptRepository
 {
     public Task<ISubstance?> GetSubstance(int substanceId);
     public Task<IList<ITimePeriod>> GetTimePeriods();

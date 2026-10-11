@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Connor.Persistance.Repositories.Receiver;
 
-public class Receiver(PersistanceContext context) : IReceiver
+public class ReceiverRepository(PersistanceContext context) : IReceiverRepository
 {
     
     public async Task<IPersonality?> GetPersonality()
