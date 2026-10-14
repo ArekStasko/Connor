@@ -6,7 +6,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
         <RootNamespace>Connor</RootNamespace>
-        <LangVersion>10</LangVersion>
+        <LangVersion>12</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
@@ -25,6 +25,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Connor.Persistance\Connor.Persistance.csproj" />
+      <ProjectReference Include="..\Connor.Services\Connor.Services.csproj" />
     </ItemGroup>
 
 </Project>

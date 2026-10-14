@@ -1,17 +1,17 @@
+using Connor.Services.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Connor.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class ConnorController : ControllerBase
+public class ConnorController(IConnorService connorService) : ControllerBase
 {
     [HttpGet("[action]")]
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(string))]
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(Exception))]
     public async Task<IActionResult> Get()
     {
-        await Task.Delay(0);
-        return StatusCode(200, "Ok");
+        return await connorService.GetSentece();
     }
 }
