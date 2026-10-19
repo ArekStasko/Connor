@@ -12,6 +12,7 @@ public class ConnorController(IConnorService connorService) : ControllerBase
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(Exception))]
     public async Task<IActionResult> Get()
     {
-        return await connorService.GetSentece();
+        var result = await connorService.GetSentece();
+        return Ok(result);
     }
 }

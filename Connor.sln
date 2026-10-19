@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connor.Domain", "Connor.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connor.Services", "Connor.Services\Connor.Services.csproj", "{0FF73DCD-9239-4190-83A3-8497276FD6D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connor.AIModelProvider", "Connor.AIModelProvider\Connor.AIModelProvider.csproj", "{3CD079F3-56BE-4F86-A2FD-19EC0C8E3653}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,5 +37,9 @@ Global
 		{0FF73DCD-9239-4190-83A3-8497276FD6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FF73DCD-9239-4190-83A3-8497276FD6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FF73DCD-9239-4190-83A3-8497276FD6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD079F3-56BE-4F86-A2FD-19EC0C8E3653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD079F3-56BE-4F86-A2FD-19EC0C8E3653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD079F3-56BE-4F86-A2FD-19EC0C8E3653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD079F3-56BE-4F86-A2FD-19EC0C8E3653}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
