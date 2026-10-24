@@ -24,6 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Connor.ModelProvider\Connor.ModelProvider.csproj" />
       <ProjectReference Include="..\Connor.Persistance\Connor.Persistance.csproj" />
       <ProjectReference Include="..\Connor.Services\Connor.Services.csproj" />
     </ItemGroup>
