@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connor.Api", "Connor.Api\Connor.Api.csproj", "{36129E5B-DE2B-417C-8EA9-56D4C5B2E7B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D2794F00-12C8-4047-B9FD-9E7044DB58BF}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connor.Persistance", "Connor.Persistance\Connor.Persistance.csproj", "{47E6BAB0-9D1D-4B64-A7F6-239E0BD88C96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connor.Domain", "Connor.Domain\Connor.Domain.csproj", "{E274C8A6-3D00-42B0-AF7C-4D7F160AE0BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connor.Services", "Connor.Services\Connor.Services.csproj", "{0FF73DCD-9239-4190-83A3-8497276FD6D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connor.ModelProvider", "Connor.ModelProvider\Connor.ModelProvider.csproj", "{3CD079F3-56BE-4F86-A2FD-19EC0C8E3653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36129E5B-DE2B-417C-8EA9-56D4C5B2E7B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36129E5B-DE2B-417C-8EA9-56D4C5B2E7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36129E5B-DE2B-417C-8EA9-56D4C5B2E7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36129E5B-DE2B-417C-8EA9-56D4C5B2E7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E6BAB0-9D1D-4B64-A7F6-239E0BD88C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E6BAB0-9D1D-4B64-A7F6-239E0BD88C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E6BAB0-9D1D-4B64-A7F6-239E0BD88C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E6BAB0-9D1D-4B64-A7F6-239E0BD88C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E274C8A6-3D00-42B0-AF7C-4D7F160AE0BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E274C8A6-3D00-42B0-AF7C-4D7F160AE0BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E274C8A6-3D00-42B0-AF7C-4D7F160AE0BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E274C8A6-3D00-42B0-AF7C-4D7F160AE0BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF73DCD-9239-4190-83A3-8497276FD6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF73DCD-9239-4190-83A3-8497276FD6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF73DCD-9239-4190-83A3-8497276FD6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF73DCD-9239-4190-83A3-8497276FD6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD079F3-56BE-4F86-A2FD-19EC0C8E3653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD079F3-56BE-4F86-A2FD-19EC0C8E3653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD079F3-56BE-4F86-A2FD-19EC0C8E3653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD079F3-56BE-4F86-A2FD-19EC0C8E3653}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+﻿services:
+  connor:
+    image: connor
+    build:
+      context: .
+      dockerfile: Connor/Dockerfile
